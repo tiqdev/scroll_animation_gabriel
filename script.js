@@ -80,7 +80,7 @@ for (let i = 2; i <= totalSection; i++) {
         "top bottom",
         "center center")
 
-    if (i < totalSection) {
+    if (i <= totalSection) {
         animateClipPath(currentSection, currentPreview,
             "polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%)",
             "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)", "center center", "bottom top")
